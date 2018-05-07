@@ -15,6 +15,9 @@ class NoticeCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var thumbImageView: UIImageView!
     
+    @IBOutlet weak var periodLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    
     var tableViewController: UITableViewController!
     
     var isSub = false

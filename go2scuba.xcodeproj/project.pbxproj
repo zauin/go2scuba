@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0FC66DD5ABF0835E7317CAF6 /* Pods_go2scuba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5EF6F7A0A133298E351E53 /* Pods_go2scuba.framework */; };
-		3E47AB71209215FC0087A780 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47AB6D209215FB0087A780 /* Functions.swift */; };
-		3E47AB72209215FC0087A780 /* UIView+Bordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47AB6E209215FB0087A780 /* UIView+Bordered.swift */; };
-		3E47AB73209215FC0087A780 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47AB6F209215FB0087A780 /* ScrollView.swift */; };
-		3E47AB74209215FC0087A780 /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47AB70209215FB0087A780 /* UIView+Border.swift */; };
 		3E47AB762092161D0087A780 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47AB752092161D0087A780 /* Globals.swift */; };
 		3E47AB78209216480087A780 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E47AB77209216480087A780 /* ImageStore.swift */; };
 		3E8F65B820920F98005BACB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65B720920F98005BACB3 /* AppDelegate.swift */; };
@@ -22,14 +18,16 @@
 		3E8F65CC20921032005BACB3 /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65C920921031005BACB3 /* NoticeCell.swift */; };
 		3E8F65CD20921032005BACB3 /* NoticeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65CA20921031005BACB3 /* NoticeItem.swift */; };
 		3E8F65CE20921032005BACB3 /* NoticeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65CB20921031005BACB3 /* NoticeListViewController.swift */; };
+		9DBA25B7209FE83100C69AAF /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B1209FE83100C69AAF /* KDCircularProgress.swift */; };
+		9DBA25B8209FE83100C69AAF /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B2209FE83100C69AAF /* Functions.swift */; };
+		9DBA25B9209FE83100C69AAF /* UIView+Bordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B3209FE83100C69AAF /* UIView+Bordered.swift */; };
+		9DBA25BA209FE83100C69AAF /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B4209FE83100C69AAF /* ScrollView.swift */; };
+		9DBA25BB209FE83100C69AAF /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B5209FE83100C69AAF /* UIView+Border.swift */; };
+		9DBA25BC209FE83100C69AAF /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B6209FE83100C69AAF /* Artwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C71978368886246739F24F7 /* Pods-go2scuba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-go2scuba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-go2scuba/Pods-go2scuba.debug.xcconfig"; sourceTree = "<group>"; };
-		3E47AB6D209215FB0087A780 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		3E47AB6E209215FB0087A780 /* UIView+Bordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Bordered.swift"; sourceTree = "<group>"; };
-		3E47AB6F209215FB0087A780 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
-		3E47AB70209215FB0087A780 /* UIView+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
 		3E47AB752092161D0087A780 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		3E47AB77209216480087A780 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		3E8F65B420920F98005BACB3 /* go2scuba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = go2scuba.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +40,12 @@
 		3E8F65C920921031005BACB3 /* NoticeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
 		3E8F65CA20921031005BACB3 /* NoticeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeItem.swift; sourceTree = "<group>"; };
 		3E8F65CB20921031005BACB3 /* NoticeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeListViewController.swift; sourceTree = "<group>"; };
+		9DBA25B1209FE83100C69AAF /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		9DBA25B2209FE83100C69AAF /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		9DBA25B3209FE83100C69AAF /* UIView+Bordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Bordered.swift"; sourceTree = "<group>"; };
+		9DBA25B4209FE83100C69AAF /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		9DBA25B5209FE83100C69AAF /* UIView+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
+		9DBA25B6209FE83100C69AAF /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		9FBE4B0DDC1FC28021773E0F /* Pods-go2scuba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-go2scuba.release.xcconfig"; path = "Pods/Target Support Files/Pods-go2scuba/Pods-go2scuba.release.xcconfig"; sourceTree = "<group>"; };
 		AE5EF6F7A0A133298E351E53 /* Pods_go2scuba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_go2scuba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,17 +70,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3E47AB6C209215FB0087A780 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3E47AB6D209215FB0087A780 /* Functions.swift */,
-				3E47AB6E209215FB0087A780 /* UIView+Bordered.swift */,
-				3E47AB6F209215FB0087A780 /* ScrollView.swift */,
-				3E47AB70209215FB0087A780 /* UIView+Border.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		3E8F65AB20920F98005BACB3 = {
 			isa = PBXGroup;
 			children = (
@@ -98,20 +91,33 @@
 		3E8F65B620920F98005BACB3 /* go2scuba */ = {
 			isa = PBXGroup;
 			children = (
+				3E8F65B720920F98005BACB3 /* AppDelegate.swift */,
 				3E47AB752092161D0087A780 /* Globals.swift */,
-				3E47AB77209216480087A780 /* ImageStore.swift */,
-				3E47AB6C209215FB0087A780 /* Extensions */,
+				9DBA25B0209FE83100C69AAF /* Extensions */,
+				3E8F65B920920F98005BACB3 /* ViewController.swift */,
 				3E8F65C920921031005BACB3 /* NoticeCell.swift */,
 				3E8F65CA20921031005BACB3 /* NoticeItem.swift */,
 				3E8F65CB20921031005BACB3 /* NoticeListViewController.swift */,
-				3E8F65B720920F98005BACB3 /* AppDelegate.swift */,
-				3E8F65B920920F98005BACB3 /* ViewController.swift */,
+				3E47AB77209216480087A780 /* ImageStore.swift */,
 				3E8F65BB20920F98005BACB3 /* Main.storyboard */,
 				3E8F65BE20920F9A005BACB3 /* Assets.xcassets */,
 				3E8F65C020920F9A005BACB3 /* LaunchScreen.storyboard */,
 				3E8F65C320920F9A005BACB3 /* Info.plist */,
 			);
 			path = go2scuba;
+			sourceTree = "<group>";
+		};
+		9DBA25B0209FE83100C69AAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA25B1209FE83100C69AAF /* KDCircularProgress.swift */,
+				9DBA25B2209FE83100C69AAF /* Functions.swift */,
+				9DBA25B3209FE83100C69AAF /* UIView+Bordered.swift */,
+				9DBA25B4209FE83100C69AAF /* ScrollView.swift */,
+				9DBA25B5209FE83100C69AAF /* UIView+Border.swift */,
+				9DBA25B6209FE83100C69AAF /* Artwork.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DECBD4EFCFF5D397188CF7D4 /* Pods */ = {
@@ -269,17 +275,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBA25BB209FE83100C69AAF /* UIView+Border.swift in Sources */,
+				9DBA25B7209FE83100C69AAF /* KDCircularProgress.swift in Sources */,
+				9DBA25B9209FE83100C69AAF /* UIView+Bordered.swift in Sources */,
 				3E47AB78209216480087A780 /* ImageStore.swift in Sources */,
 				3E8F65CD20921032005BACB3 /* NoticeItem.swift in Sources */,
-				3E47AB72209215FC0087A780 /* UIView+Bordered.swift in Sources */,
-				3E47AB74209215FC0087A780 /* UIView+Border.swift in Sources */,
+				9DBA25B8209FE83100C69AAF /* Functions.swift in Sources */,
+				9DBA25BC209FE83100C69AAF /* Artwork.swift in Sources */,
 				3E8F65CC20921032005BACB3 /* NoticeCell.swift in Sources */,
+				9DBA25BA209FE83100C69AAF /* ScrollView.swift in Sources */,
 				3E8F65BA20920F98005BACB3 /* ViewController.swift in Sources */,
 				3E8F65CE20921032005BACB3 /* NoticeListViewController.swift in Sources */,
-				3E47AB73209215FC0087A780 /* ScrollView.swift in Sources */,
 				3E8F65B820920F98005BACB3 /* AppDelegate.swift in Sources */,
 				3E47AB762092161D0087A780 /* Globals.swift in Sources */,
-				3E47AB71209215FC0087A780 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +435,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4Y625X824N;
 				INFOPLIST_FILE = go2scuba/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.marketboro.go2scuba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "43f8404e-d156-4689-a8ab-0ecfcafa50a7";
@@ -445,7 +456,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = go2scuba/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.marketboro.go2scuba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

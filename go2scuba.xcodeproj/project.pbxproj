@@ -18,6 +18,11 @@
 		3E8F65CC20921032005BACB3 /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65C920921031005BACB3 /* NoticeCell.swift */; };
 		3E8F65CD20921032005BACB3 /* NoticeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65CA20921031005BACB3 /* NoticeItem.swift */; };
 		3E8F65CE20921032005BACB3 /* NoticeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F65CB20921031005BACB3 /* NoticeListViewController.swift */; };
+		9D3CEF4320A0C7B2003C14A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CEF4220A0C7B2003C14A2 /* MainViewController.swift */; };
+		9D3CEF4520A0CB0E003C14A2 /* Go2ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CEF4420A0CB0E003C14A2 /* Go2ListCell.swift */; };
+		9D3CEF4720A0CD9C003C14A2 /* Go2gether.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CEF4620A0CD9C003C14A2 /* Go2gether.swift */; };
+		9D3CEF4920A0CDE7003C14A2 /* Go2SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CEF4820A0CDE7003C14A2 /* Go2SearchResults.swift */; };
+		9D3CEF4B20A0CE2F003C14A2 /* Go2List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CEF4A20A0CE2F003C14A2 /* Go2List.swift */; };
 		9DBA25B7209FE83100C69AAF /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B1209FE83100C69AAF /* KDCircularProgress.swift */; };
 		9DBA25B8209FE83100C69AAF /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B2209FE83100C69AAF /* Functions.swift */; };
 		9DBA25B9209FE83100C69AAF /* UIView+Bordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA25B3209FE83100C69AAF /* UIView+Bordered.swift */; };
@@ -40,6 +45,11 @@
 		3E8F65C920921031005BACB3 /* NoticeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
 		3E8F65CA20921031005BACB3 /* NoticeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeItem.swift; sourceTree = "<group>"; };
 		3E8F65CB20921031005BACB3 /* NoticeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeListViewController.swift; sourceTree = "<group>"; };
+		9D3CEF4220A0C7B2003C14A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9D3CEF4420A0CB0E003C14A2 /* Go2ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go2ListCell.swift; sourceTree = "<group>"; };
+		9D3CEF4620A0CD9C003C14A2 /* Go2gether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go2gether.swift; sourceTree = "<group>"; };
+		9D3CEF4820A0CDE7003C14A2 /* Go2SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go2SearchResults.swift; sourceTree = "<group>"; };
+		9D3CEF4A20A0CE2F003C14A2 /* Go2List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go2List.swift; sourceTree = "<group>"; };
 		9DBA25B1209FE83100C69AAF /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		9DBA25B2209FE83100C69AAF /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		9DBA25B3209FE83100C69AAF /* UIView+Bordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Bordered.swift"; sourceTree = "<group>"; };
@@ -100,6 +110,11 @@
 				3E8F65CB20921031005BACB3 /* NoticeListViewController.swift */,
 				3E47AB77209216480087A780 /* ImageStore.swift */,
 				3E8F65BB20920F98005BACB3 /* Main.storyboard */,
+				9D3CEF4420A0CB0E003C14A2 /* Go2ListCell.swift */,
+				9D3CEF4A20A0CE2F003C14A2 /* Go2List.swift */,
+				9D3CEF4620A0CD9C003C14A2 /* Go2gether.swift */,
+				9D3CEF4820A0CDE7003C14A2 /* Go2SearchResults.swift */,
+				9D3CEF4220A0C7B2003C14A2 /* MainViewController.swift */,
 				3E8F65BE20920F9A005BACB3 /* Assets.xcassets */,
 				3E8F65C020920F9A005BACB3 /* LaunchScreen.storyboard */,
 				3E8F65C320920F9A005BACB3 /* Info.plist */,
@@ -275,13 +290,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3CEF4B20A0CE2F003C14A2 /* Go2List.swift in Sources */,
+				9D3CEF4920A0CDE7003C14A2 /* Go2SearchResults.swift in Sources */,
 				9DBA25BB209FE83100C69AAF /* UIView+Border.swift in Sources */,
+				9D3CEF4720A0CD9C003C14A2 /* Go2gether.swift in Sources */,
 				9DBA25B7209FE83100C69AAF /* KDCircularProgress.swift in Sources */,
 				9DBA25B9209FE83100C69AAF /* UIView+Bordered.swift in Sources */,
 				3E47AB78209216480087A780 /* ImageStore.swift in Sources */,
 				3E8F65CD20921032005BACB3 /* NoticeItem.swift in Sources */,
 				9DBA25B8209FE83100C69AAF /* Functions.swift in Sources */,
 				9DBA25BC209FE83100C69AAF /* Artwork.swift in Sources */,
+				9D3CEF4320A0C7B2003C14A2 /* MainViewController.swift in Sources */,
+				9D3CEF4520A0CB0E003C14A2 /* Go2ListCell.swift in Sources */,
 				3E8F65CC20921032005BACB3 /* NoticeCell.swift in Sources */,
 				9DBA25BA209FE83100C69AAF /* ScrollView.swift in Sources */,
 				3E8F65BA20920F98005BACB3 /* ViewController.swift in Sources */,
